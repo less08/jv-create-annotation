@@ -16,9 +16,9 @@ public class ConsoleHandler {
     private static final int INDEX_SPORT = 1;
 
     @Inject
-    BetDao betDao;
+    private BetDao betDao;
     @Inject
-    UserDao userDao;
+    private UserDao userDao;
 
     public void handleBet() {
         Scanner scanner = new Scanner(System.in);
